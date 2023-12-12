@@ -8,7 +8,6 @@ A simple Todo app implemented in Rust as a practice project.
 - [Features](#features)
 - [Getting Started](#getting-started)
   - [Installation](#installation)
-- [Usage](#usage)
 - [Contributing](#contributing)
 - [License](#license)
 
@@ -33,3 +32,10 @@ Do simple steps to run it on your local machine
    ```bash
    git clone https://github.com/your-username/todo.git
    cd todo
+
+### Usage
+
+1. After successful installation, run the following command to start the Todo app:
+
+   ```bash
+   cargo run
