@@ -38,9 +38,10 @@ Do simple steps to run it on your local machine
 1. After successful installation, run the following command to start the Todo app:
 
    ```bash
-   cargo run -- <verbose> <filename> <SUBCOMMAND>
+     cargo run -- <verbose> <filename> <SUBCOMMAND>
 
-  ```bash
+  
+   ```bash
      cargo run -- -j data.json add "some_text"
      cargo run -- -j data.json done 1
      cargo run -- -j data.json list
