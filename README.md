@@ -41,6 +41,6 @@ Do simple steps to run it on your local machine
    cargo run -- <verbose> <filename> <SUBCOMMAND>
 
   ```bash
-   cargo run -- -j data.json add "some_text" </br>
-   cargo run -- -j data.json done 1 </br>
-   cargo run -- -j data.json list </br>
+     cargo run -- -j data.json add "some_text"
+     cargo run -- -j data.json done 1
+     cargo run -- -j data.json list
