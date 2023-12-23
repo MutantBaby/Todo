@@ -41,7 +41,7 @@ Do simple steps to run it on your local machine
      cargo run -- <verbose> <filename> <SUBCOMMAND>
 
   
-   ```bash
+   like
      cargo run -- -j data.json add "some_text"
      cargo run -- -j data.json done 1
      cargo run -- -j data.json list
