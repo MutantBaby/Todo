@@ -26,7 +26,7 @@ impl fmt::Display for Task {
         let created_at: chrono::format::DelayedFormat<chrono::format::StrftimeItems<'_>> =
             self.created_at.with_timezone(&Local).format("%F %H:%M");
 
-        write!(f, "{:<50} [{}]", self.text, created_at)
+        write!(f, "{:<150} [{}]", self.text, created_at)
     }
 }
 
