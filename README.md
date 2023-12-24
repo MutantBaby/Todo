@@ -40,6 +40,6 @@ Do simple steps to run it on your local machine
      cargo run -- <verbose> <filename> <SUBCOMMAND>
 like
    ```bash
-     cargo run -- -j data.json add "some_text"
-     cargo run -- -j data.json done 1
-     cargo run -- -j data.json list
+     cargo run -- -j data.json add "some_text" // To add aask
+     cargo run -- -j data.json done 1 // Mark as completed
+     cargo run -- -j data.json list // To watch all tasks
